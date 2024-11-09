@@ -1,0 +1,17 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "kotlin.languageServer.enabled": true,
+    "kotlin.debugAdapter.enabled": true,
+    "java.project.sourcePaths": [
+        "app/src/main/kotlin",
+        "app/src/test/kotlin"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-openjdk-amd64",
+            "default": true
+        }
+    ]
+}

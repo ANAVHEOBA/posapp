@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "POS App",
+            "mainClass": "com.example.posapp.MainKt",
+            "projectRoot": "${workspaceFolder}",
+            "preLaunchTask": "gradle: build"
+        }
+    ]
+}
